@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/views.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./views_files/onsenui.css">
+  <link rel="stylesheet" href="./views_files/onsen-css-components.min.css">
+  <script src="./views_files/onsenui.min.js.download"></script><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="./views_files/style.css">
+  <script src="./views_files/script.js.download"></script>
+</head>
+<body data-device-back-button-handler-id="0" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+
+    <ons-page class="page page--material" modifier="material" shown=""><div class="page__background page--material__background"></div><div class="page__content page--material__content">
+    <div>
+        <p style="text-align: center; margin-top: 10px;">
+            <ons-search-input placeholder="Search" onchange="ons.notification.alert(`&#39;Searched for: &#39; + this.value`)" modifier="material">
+            
+      <input type="search" class="search-input search-input--material" placeholder="Search">
+    </ons-search-input>
+        </p>
+
+        <ons-list modifier="material" class="list list--material">
+            <ons-list-header modifier="material" class="list-header list-header--material">ผลการค้นหา</ons-list-header>
+            <ons-list-item style="grid-auto-rows: max-content;" modifier="material" class="list-item list-item--material"><div class="center list-item__center list-item--material__center">
+
+                <ons-list-item modifier="material" ripple="" class="list-item list-item--material"><ons-ripple modifier="material" class="ripple--material ripple"><div class="ripple__wave ripple--material__wave" style="opacity: 0; top: -236.009px; left: -157.789px; width: 549.751px; height: 549.751px; transition-property: opacity; transition-duration: 0s;"></div><div class="ripple__background ripple--material__background" style="transition-property: opacity; transition-duration: 0s; opacity: 0;"></div></ons-ripple><div class="center list-item__center list-item--material__center">Tap me!</div></ons-list-item>
+                <ons-list-item modifier="material" ripple="" class="list-item list-item--material"><ons-ripple modifier="material" class="ripple--material ripple"><div class="ripple__wave ripple--material__wave" style="opacity: 0; top: -256.153px; left: -158.588px; width: 549.373px; height: 549.373px; transition-property: opacity; transition-duration: 0s;"></div><div class="ripple__background ripple--material__background" style="transition-property: opacity; transition-duration: 0s; opacity: 0;"></div></ons-ripple><div class="center list-item__center list-item--material__center">Tap me!</div></ons-list-item>
+                <ons-list-item modifier="material" ripple="" class="list-item list-item--material"><ons-ripple modifier="material" class="ripple--material ripple"><div class="ripple__wave ripple--material__wave" style="opacity: 0; top: -266.371px; left: -165.262px; width: 556.796px; height: 556.796px; transition-property: opacity; transition-duration: 0s;"></div><div class="ripple__background ripple--material__background" style="transition-property: opacity; transition-duration: 0s; opacity: 0;"></div></ons-ripple><div class="center list-item__center list-item--material__center">Tap me!</div></ons-list-item>
+                <ons-list-item modifier="material" ripple="" class="list-item list-item--material"><ons-ripple modifier="material" class="ripple--material ripple"><div class="ripple__wave ripple--material__wave" style="opacity: 0; top: -259.863px; left: -173.977px; width: 564.349px; height: 564.349px; transition-property: opacity; transition-duration: 0s;"></div><div class="ripple__background ripple--material__background" style="transition-property: opacity; transition-duration: 0s; opacity: 0;"></div></ons-ripple><div class="center list-item__center list-item--material__center">Tap me!</div></ons-list-item>
+
+                <ons-col>
+                    <ons-col width="100px" style="margin-bottom: 10px; flex: 0 0 100px; max-width: 100px;"><img src="./views_files/1.jpg" style="widows: 300px;; height: 300px;"></ons-col>
+                    <ons-row style=" margin-left: 10px; margin-top: 10px">   Miss peregrine's home(2016)
+                    </ons-row>
+                  </ons-col>
+
+                  <ons-col>
+                    <ons-col width="100px" style="margin-bottom: 10px; flex: 0 0 100px; max-width: 100px;"><img src="./views_files/2.jpg" style="widows: 300px;; height: 300px;"></ons-col>
+                    <ons-row style=" margin-left: 10px; margin-top: 10px">   Aladdin (2019)
+                    </ons-row>
+                  </ons-col>
+
+                  <ons-col>
+                    <ons-col width="100px" style="margin-bottom: 10px; flex: 0 0 100px; max-width: 100px;"><img src="./views_files/3.jpg" style="widows:300px;; height: 300px;"></ons-col>
+                    <ons-row style="margin-left: 10px; margin-top: 10px">   
+                        Aquaman (2018)
+                    </ons-row>
+                  </ons-col>
+                  
+            </div></ons-list-item>
+
+        </ons-list>
+    </div>
+
+</div></ons-page>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
